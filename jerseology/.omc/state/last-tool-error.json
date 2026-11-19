@@ -1,0 +1,7 @@
+{
+  "tool_name": "Grep",
+  "tool_input_preview": "{\"pattern\":\"â€|Â©|Â·\",\"path\":\"D:\\\\projects\\\\jerseology-web\\\\jerseology\\\\src\",\"output_mode\":\"files_with_matches\"}",
+  "error": "EUNKNOWN: unknown error, uv_spawn",
+  "timestamp": "2026-11-19T13:29:04.480Z",
+  "retry_count": 1
+}

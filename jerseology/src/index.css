@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Anton", Impact, sans-serif;
+  --font-editorial: "Barlow Condensed", "Bebas Neue", Impact, sans-serif;
+  --font-sans: "Inter", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-crimson: #C93636;
+  --color-neon-red: #C93636;
+  --color-obsidian: #09090B;
+  --color-surface-dark: #151518;
+  --color-offwhite: #F3EADB;
+  --color-navy: #0B1B3A;
+  --color-charcoal: #1A1A1A;
+  --color-sand: #E7E1D6;
+  --color-teal: #8BC8B9;
+  --color-teal-deep: #68A99C;
+  --color-cream: #F3EADB;
+  --color-cream-light: #FFF9F0;
+  --color-coral: #C93636;
+  --color-coral-deep: #AD2828;
+  --color-mint: #8BC8B9;
+  --color-mint-dark: #68A99C;
+  --color-red: #C93636;
+  --color-red-hover: #AD2828;
+  --color-black: #1A1A1A;
+  --color-muted: #5D5B58;
+  --color-border: #D9CEBF;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #F3EADB;
+    color: #1A1A1A;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  *:focus-visible {
+    outline: 2px solid #C93636;
+    outline-offset: 2px;
+  }
+}
+
+.font-editorial {
+  font-family: var(--font-editorial);
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.font-editorial-upright {
+  font-family: var(--font-editorial);
+  font-weight: 800;
+  letter-spacing: -0.015em;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+.font-mono-label {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Metallic chrome typography gradient */
+.text-chrome {
+  background: linear-gradient(180deg, #FFFFFF 0%, #E4E4E7 48%, #71717A 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Subtle film grain texture for hero sections */
+.hero-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 0);
+  background-size: 3px 3px;
+}
+
+/* Traveling red neon scan light on announcement bar bottom border */
+@keyframes neon-scan {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(400%);
+  }
+}
+
+.animate-neon-scan {
+  animation: neon-scan 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* Skeleton shimmer */
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #151518 25%, #222228 50%, #151518 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.6s infinite linear;
+}
+
+/* Hide scrollbars cleanly where custom horizontal scrolling is used */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.pdp-diagonal-left {
+  clip-path: polygon(0 0, 28% 0, 10% 100%, 0 100%);
+}
+
+.pdp-diagonal-right {
+  clip-path: polygon(88% 0, 100% 0, 100% 100%, 78% 100%);
+}
+
+@media (min-width: 768px) {
+  .pdp-diagonal-left {
+    clip-path: polygon(0 0, 36% 0, 18% 100%, 0 100%);
+  }
+
+  .pdp-diagonal-right {
+    clip-path: polygon(87% 0, 100% 0, 100% 100%, 75% 100%);
+  }
+}
+

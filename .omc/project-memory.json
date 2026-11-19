@@ -1,0 +1,162 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1795093372802,
+  "projectRoot": "D:\\projects\\jerseology-web",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "jerseology": {
+      "path": "jerseology",
+      "purpose": null,
+      "fileCount": 9,
+      "lastAccessed": 1795093372709,
+      "keyFiles": [
+        "bun.lock",
+        "index.html",
+        "metadata.json",
+        "package.json",
+        "README.md"
+      ]
+    },
+    "jerseology\\src": {
+      "path": "jerseology\\src",
+      "purpose": "Source code",
+      "fileCount": 3,
+      "lastAccessed": 1795093372712,
+      "keyFiles": [
+        "App.tsx",
+        "index.css",
+        "main.tsx"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "jerseology\\src",
+      "accessCount": 3,
+      "lastAccessed": 1795094112687,
+      "type": "directory"
+    },
+    {
+      "path": "C:\\Users\\Qaaed\\AppData\\Local\\Temp\\claude\\D--projects-jerseology-web\\c902d479-6ff9-43ad-9ac5-ac7c97d871d9\\tasks\\b9m4cd70g.output",
+      "accessCount": 2,
+      "lastAccessed": 1795093926992,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\src\\components\\Navbar.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1795094105247,
+      "type": "directory"
+    },
+    {
+      "path": "jerseology\\src\\pages\\ProductDetailPage.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1795094106320,
+      "type": "directory"
+    },
+    {
+      "path": "jerseology\\src\\components\\BrandWordmark.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1795094342566,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\index.html",
+      "accessCount": 2,
+      "lastAccessed": 1795094343008,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\README.md",
+      "accessCount": 1,
+      "lastAccessed": 1795093528332,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\package.json",
+      "accessCount": 1,
+      "lastAccessed": 1795093528865,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\.env.example",
+      "accessCount": 1,
+      "lastAccessed": 1795093529451,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\vite.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1795093530003,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\Qaaed\\AppData\\Local\\Temp\\claude\\D--projects-jerseology-web\\c902d479-6ff9-43ad-9ac5-ac7c97d871d9\\tasks\\bg353l84y.output",
+      "accessCount": 1,
+      "lastAccessed": 1795093971148,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\logos\\1.jpeg",
+      "accessCount": 1,
+      "lastAccessed": 1795094117368,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\logos\\2.jpeg",
+      "accessCount": 1,
+      "lastAccessed": 1795094117861,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\logos\\3.jpeg",
+      "accessCount": 1,
+      "lastAccessed": 1795094118341,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\logos\\4.jpeg",
+      "accessCount": 1,
+      "lastAccessed": 1795094118855,
+      "type": "file"
+    },
+    {
+      "path": "jerseology\\src\\components\\Footer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1795094287857,
+      "type": "directory"
+    },
+    {
+      "path": "C:\\Users\\Qaaed\\AppData\\Local\\Temp\\claude\\D--projects-jerseology-web\\c902d479-6ff9-43ad-9ac5-ac7c97d871d9\\tasks\\b5s7r9j8d.output",
+      "accessCount": 1,
+      "lastAccessed": 1795094349225,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

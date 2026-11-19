@@ -1,0 +1,318 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1795095131671,
+  "projectRoot": "D:\\projects\\jerseology-web\\jerseology",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "express",
+        "version": "4.21.2",
+        "category": "backend"
+      },
+      {
+        "name": "react",
+        "version": "19.0.1",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.0.1",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "8.3.0",
+        "category": "build"
+      },
+      {
+        "name": "esbuild",
+        "version": "0.25.0",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "grep -rl --include='*.tsx' --include='*.ts' --include='*.json' --include='*.css' 'â€\\|Â©\\|Â·\\|Â®' src/ 2>&1 | head -5; echo \"---tsc---\"; npx tsc --noEmit 2>&1 | tail -20",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite --port=3000 --host=0.0.0.0",
+      "build": "vite build",
+      "preview": "vite preview",
+      "clean": "rm -rf dist server.js",
+      "lint": "tsc --noEmit"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "logos": {
+      "path": "logos",
+      "purpose": null,
+      "fileCount": 4,
+      "lastAccessed": 1795095131636,
+      "keyFiles": [
+        "1.jpeg",
+        "2.jpeg",
+        "3.jpeg",
+        "4.jpeg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 3,
+      "lastAccessed": 1795095131637,
+      "keyFiles": [
+        "App.tsx",
+        "index.css",
+        "main.tsx"
+      ]
+    },
+    "src\\assets": {
+      "path": "src\\assets",
+      "purpose": "Static assets",
+      "fileCount": 0,
+      "lastAccessed": 1795095131647,
+      "keyFiles": []
+    },
+    "src\\components": {
+      "path": "src\\components",
+      "purpose": "UI components",
+      "fileCount": 19,
+      "lastAccessed": 1795095131647,
+      "keyFiles": [
+        "AccountModal.tsx",
+        "AddToCartToast.tsx",
+        "BrandWordmark.tsx"
+      ]
+    },
+    "src\\data": {
+      "path": "src\\data",
+      "purpose": "Data files",
+      "fileCount": 3,
+      "lastAccessed": 1795095131648,
+      "keyFiles": [
+        "catalog.ts",
+        "clubs.json",
+        "products.json"
+      ]
+    },
+    "src\\lib": {
+      "path": "src\\lib",
+      "purpose": "Library code",
+      "fileCount": 1,
+      "lastAccessed": 1795095131648,
+      "keyFiles": [
+        "format.ts"
+      ]
+    },
+    "src\\pages": {
+      "path": "src\\pages",
+      "purpose": "Page components",
+      "fileCount": 6,
+      "lastAccessed": 1795095131648,
+      "keyFiles": [
+        "AboutPage.tsx",
+        "ClubPage.tsx",
+        "CollectionPage.tsx"
+      ]
+    },
+    "src\\types": {
+      "path": "src\\types",
+      "purpose": "Type definitions",
+      "fileCount": 1,
+      "lastAccessed": 1795095131648,
+      "keyFiles": [
+        "index.ts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src\\pages\\ProductDetailPage.tsx",
+      "accessCount": 12,
+      "lastAccessed": 1795095188236,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Navbar.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1795097355594,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\Footer.tsx",
+      "accessCount": 8,
+      "lastAccessed": 1795097563101,
+      "type": "file"
+    },
+    {
+      "path": "src\\data\\products.json",
+      "accessCount": 4,
+      "lastAccessed": 1795096940771,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\FilterBar.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1795097545574,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components\\BrandWordmark.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1795095427462,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 2,
+      "lastAccessed": 1795096874353,
+      "type": "file"
+    },
+    {
+      "path": "src\\types\\index.ts",
+      "accessCount": 2,
+      "lastAccessed": 1795096890200,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\HomePage.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1795097512607,
+      "type": "file"
+    },
+    {
+      "path": "src\\pages\\CollectionPage.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1795097534116,
+      "type": "directory"
+    },
+    {
+      "path": "src\\components\\AccountModal.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1795095162091,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\Qaaed\\AppData\\Local\\Temp\\claude\\1a6dd938df7c70e8\\b756d2c4-4faf-4285-ac66-193a24bf696e\\scratchpad\\cutout.py",
+      "accessCount": 1,
+      "lastAccessed": 1795095396273,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\Qaaed\\AppData\\Local\\Temp\\claude\\1a6dd938df7c70e8\\b756d2c4-4faf-4285-ac66-193a24bf696e\\scratchpad\\preview.png",
+      "accessCount": 1,
+      "lastAccessed": 1795095422957,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\Qaaed\\AppData\\Local\\Temp\\claude\\D--projects-jerseology-web\\c902d479-6ff9-43ad-9ac5-ac7c97d871d9\\tasks\\bppyz21jf.output",
+      "accessCount": 1,
+      "lastAccessed": 1795096296207,
+      "type": "file"
+    },
+    {
+      "path": "C:\\Users\\Qaaed\\AppData\\Local\\Temp\\claude\\D--projects-jerseology-web\\c902d479-6ff9-43ad-9ac5-ac7c97d871d9\\tasks\\blmsy8csd.output",
+      "accessCount": 1,
+      "lastAccessed": 1795096307704,
+      "type": "file"
+    },
+    {
+      "path": "src\\App.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1795096804800,
+      "type": "file"
+    },
+    {
+      "path": "src\\data\\catalog.ts",
+      "accessCount": 1,
+      "lastAccessed": 1795096806034,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ProductCard.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1795096840044,
+      "type": "file"
+    },
+    {
+      "path": "src\\index.css",
+      "accessCount": 1,
+      "lastAccessed": 1795096887058,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\home\\HeroSection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1795097406590,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\home\\FeaturedCollections.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1795097428762,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\home\\ScrollShowcase.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1795097457229,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\home\\NewArrivals.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1795097466882,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\home\\EditorialSection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1795097482695,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\home\\FAQSection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1795097502028,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
